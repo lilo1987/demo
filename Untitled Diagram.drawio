@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-19T03:07:27.214Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="kwYj0UWUuFk5OrQK7ZTI" version="14.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-19T07:30:47.073Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="5lhcnjhvo8d0ltHozzbz" version="14.2.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1247" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1649" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -25,13 +25,13 @@
         <mxCell id="MU5IiB2vjCHLdid9Sq_6-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="200" y="770" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MU5IiB2vjCHLdid9Sq_6-10" value="kafka 队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="MU5IiB2vjCHLdid9Sq_6-10" value="list 队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="510" y="670" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MU5IiB2vjCHLdid9Sq_6-11" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;kafka 队列&lt;/span&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="MU5IiB2vjCHLdid9Sq_6-11" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;list 队列&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="510" y="770" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MU5IiB2vjCHLdid9Sq_6-13" value="&lt;span&gt;kafka 队列&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="MU5IiB2vjCHLdid9Sq_6-13" value="&lt;span&gt;list 队列&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="510" y="860" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MU5IiB2vjCHLdid9Sq_6-14" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MU5IiB2vjCHLdid9Sq_6-8" target="MU5IiB2vjCHLdid9Sq_6-10">
@@ -106,8 +106,8 @@
         <mxCell id="MU5IiB2vjCHLdid9Sq_6-32" value="数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="530" y="1160" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MU5IiB2vjCHLdid9Sq_6-35" value="布隆运算" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="485" y="980" width="150" height="80" as="geometry" />
+        <mxCell id="MU5IiB2vjCHLdid9Sq_6-35" value="数据计算" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="980" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MU5IiB2vjCHLdid9Sq_6-36" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MU5IiB2vjCHLdid9Sq_6-35" target="MU5IiB2vjCHLdid9Sq_6-32">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -165,6 +165,18 @@
         </mxCell>
         <mxCell id="MU5IiB2vjCHLdid9Sq_6-68" value="消费数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="820" y="910" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MU5IiB2vjCHLdid9Sq_6-72" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="950" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MU5IiB2vjCHLdid9Sq_6-73" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="950" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MU5IiB2vjCHLdid9Sq_6-74" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="950" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MU5IiB2vjCHLdid9Sq_6-75" value="涉及到的工具&lt;br&gt;api golang 协程高并发&lt;br&gt;python 布隆过滤计算数据&lt;br&gt;kafka 消息队列生产和消费&lt;br&gt;php 后台数据报表展示&lt;br&gt;mysql 存储计算后的数据&lt;br&gt;mysql 分表存储打点数据&lt;br&gt;kylin存储打点数据" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="950" y="690" width="160" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
